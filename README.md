@@ -10,6 +10,13 @@ While several project management tools exist on the market, many have been met w
 
 Simpler alternatives, such as Trello and Asana, provide a lower barrier to entry, however are capped by a paywall once you reach their free tier limit. Projectable is a free, open source alternative that puts user experience first. 
 
+**Features/Functionality:**
+
+- Register and Login via firebase authentication 
+- Toggle light and dark mode 
+- Create and manage project boards 
+- Collaborate with team members on projects
+- Provide feedback to team members through comments 
 
 
 
