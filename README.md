@@ -14,9 +14,15 @@ Projectable is a lightweight, project management application that helps teams, o
 
 - Register and Login via firebase authentication 
 - Toggle light and dark mode 
-- Create and manage project boards 
-- Collaborate with team members on projects
+- Track progress of tasks and projects on the dashboard home screen. 
+- A calendar view tracks task due dates
+- Create and manage project boards
+- Create and manage project tasks
+- Collaborate by adding team members to projects 
 - Provide feedback to team members through comments 
+- Assign tasks to members by drag and drop 
+- Assign priority to tasks
+
 
 ## Tech Stack
 
