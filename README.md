@@ -18,11 +18,11 @@ Projectable is a lightweight, project management application that helps teams, o
 - Toggle light and dark mode 
 - Track progress of tasks and projects on the dashboard home screen. 
 - A calendar view tracks task due dates
-- Create and manage project boards
+- Create and manage projects
 - Create and manage project tasks
 - Collaborate by adding team members to projects 
 - Provide feedback to team members through comments 
-- Assign tasks to members by drag and drop 
+- Assign tasks to members 
 - Assign priority to tasks
 
 **Target Audience**
