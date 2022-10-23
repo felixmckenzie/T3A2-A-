@@ -28,7 +28,7 @@ Projectable is a lightweight, project management application that helps teams of
 
 **Target Audience**
 
-The app is intended for both Project Managers, 
+The app is intended for Project Managers, teams and individuals wanting to manage projects of all scales 
 
 ## Tech Stack
 
