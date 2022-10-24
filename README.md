@@ -60,7 +60,8 @@ As Lisa, a freelance Web Developer, I want to be able to set due dates for proje
 
 As George, a UX/UI Designer, I want to be able to comment on project tasks that are assigned to fellow team members, so I can ask how a task is progressing and provide feedback to the developers on my team. 
 
-
+## Application Architecture Diagram
+![application-architecture](./diagrams/App%20Architecture%20Diagram.png)
 
 
 
