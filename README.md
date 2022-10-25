@@ -49,16 +49,21 @@ The app is intended for Project Managers, teams and individuals wanting to manag
 - Firebase Authentication
 
 ## User Stories 
+As Max, A Project Manager, I’m currently lacking visibility across all my projects. I would like a tool that allows me to plan and manage all of my team’s projects in one place, so that I know how many projects I have, what each includes and when each is happening. 
 
-As Max, a Project Manager, I’m currently lacking visibility across all my projects. I want a tool that allows me to plan and manage all of my team’s projects in one place, so that I know how many projects I have, what each includes and when each is happening. 
+As Joe, A Project Manager, I want to be able to create tasks for a project, So my team can easily visualize all the requirements necessary to complete a project.
 
-As Michael, a Frontend Developer on a team, when working on a project I want to be able to view a task’s priority status, so I know what tickets will make the most impact with achieving the project goals. 
+As Emma, A Frontend Developer, During a project, plans and requirements often change to meet the client needs, I want to be able to update and delete tasks to reflect the current state of the project. 
 
-As Sarah, a Product Manager, I want to be able to see how much (or little) work each individual team member has on their plate, so I know who to delegate tasks to. 
+As Michael, A Frontend Developer on a team, when working on a project I want to be able to view a task’s priority status, so I know what tickets will make the most impact with achieving the project goals. 
 
-As Lisa, a freelance Web Developer, I want to be able to set due dates for projects, so I can manage my workload and stay on track with client requests. 
+As Jane, a Backend Developer, I’m often working across multiple projects with multiple teams. I want to receive notifications in a central location, when someone comments on a project task that’s assigned to me. 
 
-As George, a UX/UI Designer, I want to be able to comment on project tasks that are assigned to fellow team members, so I can ask how a task is progressing and provide feedback to the developers on my team. 
+As Sarah, A Product Manager, When working on a project,  I want to be able to track each team member's workload by how many tasks are assigned to an individual, so I can gauge each team member’s work capacity. 
+
+As Lisa, A freelance Web Developer, I want to be able to set due dates for projects, so I can manage my workload and stay on track with client requests. 
+
+As George, a UX/UI Designer, I want to be able to comment on project tasks that are assigned to fellow team members, so I can know how a task is progressing and provide feedback to the developers on my team. 
 
 ## Application Architecture Diagram
 ![application-architecture](./diagrams/App%20Architecture%20Diagram.png)
