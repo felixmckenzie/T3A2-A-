@@ -67,8 +67,25 @@ As George, a UX/UI Designer, I want to be able to comment on project tasks that 
 ## Application Architecture Diagram
 ![application-architecture](./diagrams/App%20Architecture%20Diagram.png)
 
+## Wireframes
 
-
+#### Sign Up / Log In
+![sign-up](./wireframes/sign-up-page.png)
+![sign-in](./wireframes/login-page.png)
+#### Dashboard Views
+![dashboard-notifications](./wireframes/dashboard-notifications.png)
+![dashboard-projects](./wireframes/dashboard-projects.png)
+![dashboard-tasks](./wireframes/dashboard-tasks.png)
+![dashboard-calendar](./wireframes/dashboard-calendar.png)
+![dashboard-settings](./wireframes/dashboard-settings.png)
+#### Project Views
+![project-unassigned-tasks](./wireframes/project-view-unassigned-tasks.png)
+![project-completed-tasks](./wireframes/project-view-completed-tasks.png)
+![project-members](./wireframes/project-view-members.png)
+#### View Task Modal
+![task-modal](./wireframes/task-modal.png)
+#### View Members Modal
+![members-modal](./wireframes/member-modal.png)
 
 ## Reference List
 
