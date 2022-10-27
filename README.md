@@ -69,26 +69,24 @@ As George, a UX/UI Designer, I want to be able to comment on project tasks that 
 
 ## Wireframes
 
-#### Sign Up / Log In
+## Sign Up / Log In
 ![sign-up](./wireframes/sign-up-page.png)
 ![sign-in](./wireframes/login-page.png)
-#### Dashboard Views
+## Dashboard Views
 ![dashboard-notifications](./wireframes/dashboard-notifications.png)
 ![dashboard-projects](./wireframes/dashboard-projects.png)
 ![dashboard-tasks](./wireframes/dashboard-tasks.png)
 ![dashboard-calendar](./wireframes/dashboard-calendar.png)
 ![dashboard-settings](./wireframes/dashboard-settings.png)
-#### Project Views
+## Project Views
 ![project-unassigned-tasks](./wireframes/project-view-unassigned-tasks.png)
 ![project-completed-tasks](./wireframes/project-view-completed-tasks.png)
 ![project-members](./wireframes/project-view-members.png)
-#### View Task Modal
+##  View Task Modal
 ![task-modal](./wireframes/task-modal.png)
-#### View Members Modal
+## View Members Modal
 ![members-modal](./wireframes/member-modal.png)
-
 ## Reference List
-
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
 
 TeamStage 2020, 31 Pivotal Project Management Statistics for 2021, TeamStage, viewed 25 October 2022, <https://teamstage.io/project-management-statistics/>.
