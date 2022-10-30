@@ -65,27 +65,59 @@ As Lisa, A freelance Web Developer, I want to be able to set due dates for proje
 As George, a UX/UI Designer, I want to be able to comment on project tasks that are assigned to fellow team members, so I can know how a task is progressing and provide feedback to the developers on my team. 
 
 ## Application Architecture Diagram
-![application-architecture](./diagrams/App%20Architecture%20Diagram.png)
+![application-architecture](./docs/diagrams/App%20Architecture%20Diagram.png)
+
+## Data Flow Diagrams
+
+### The Authentication System
+![authentication-diagram](./docs/diagrams/Projectable%20DFD%20-%20Auth.png)
+### The Projects Subsystem
+![projects-subsystem](./docs/diagrams/Projectable%20DFD%20-%20projects.png)
+### The Tasks SubSystem
+![tasks-subsystem](./docs/diagrams/Projectable%20DFD%20-%20tasks.png)
+### The Task Comments Subsystem
+![task-comments-subsystem](./docs/diagrams/Projectable%20DFD%20-%20task%20comments.png)
 
 ## Wireframes
 
-## Sign Up / Log In
-![sign-up](./wireframes/sign-up-page.png)
-![sign-in](./wireframes/login-page.png)
-## Dashboard Views
-![dashboard-notifications](./wireframes/dashboard-notifications.png)
-![dashboard-projects](./wireframes/dashboard-projects.png)
-![dashboard-tasks](./wireframes/dashboard-tasks.png)
-![dashboard-calendar](./wireframes/dashboard-calendar.png)
-![dashboard-settings](./wireframes/dashboard-settings.png)
-## Project Views
-![project-unassigned-tasks](./wireframes/project-view-unassigned-tasks.png)
-![project-completed-tasks](./wireframes/project-view-completed-tasks.png)
-![project-members](./wireframes/project-view-members.png)
-##  View Task Modal
-![task-modal](./wireframes/task-modal.png)
-## View Members Modal
-![members-modal](./wireframes/member-modal.png)
+The Projectable UI has been designed with a desktop first approach. However,
+the UI will be responsive to tablet and mobile - using the same layout. With
+careful application of a grid based layout and flex content, all UI elements
+will resize to fit cleanly in the same format on all device types.
+
+Both the dashboard and project views feature a left side bar that acts as 
+a tab bar for navigation between the various subviews. This sidebar will
+be sized so that it does not take up to much valuable space on mobile devices,
+and all project, task, and member cards will retain their layout - relying on
+text wrapping to accomodate for reduced space on smaller screens.
+
+Hence, only desktop wireframes have been included in this documentation.
+
+### Sign Up / Log In
+![sign-up](./docs/wireframes/sign-up-page.png)
+![sign-in](./docs/wireframes/login-page.png)
+### Dashboard Views
+![dashboard-notifications](./docs/wireframes/dashboard-notifications.png)
+![dashboard-projects](./docs/wireframes/dashboard-projects.png)
+![dashboard-tasks](./docs/wireframes/dashboard-tasks.png)
+![dashboard-calendar](./docs/wireframes/dashboard-calendar.png)
+![dashboard-settings](./docs/wireframes/dashboard-settings.png)
+### Project Views
+![project-unassigned-tasks](./docs/wireframes/project-view-unassigned-tasks.png)
+![project-completed-tasks](./docs/wireframes/project-view-completed-tasks.png)
+![project-members](./docs/wireframes/project-view-members.png)
+![project-settings](./docs/wireframes/project-view-settings.png)
+###  View Task Modal
+![task-modal](./docs/wireframes/task-modal.png)
+### View Members Modal
+![members-modal](./docs/wireframes/member-modal.png)
+### Edit Project Modal
+![edit-project-modal](./docs/wireframes/edit-project-modal.png)
+### Add Member Modal
+![add-member-modal](./docs/wireframes/add-member-modal.png)
+### Remove Member Modal
+![remove-member-modal](./docs/wireframes/remove-member-modal.png)
+
 ## Reference List
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
 
