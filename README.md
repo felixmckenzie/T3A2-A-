@@ -107,7 +107,11 @@ Hence, only desktop wireframes have been included in this documentation.
 ![project-completed-tasks](./docs/wireframes/project-view-completed-tasks.png)
 ![project-members](./docs/wireframes/project-view-members.png)
 ![project-settings](./docs/wireframes/project-view-settings.png)
-###  View Task Modal
+### New Project Modal
+![new-porject-modal](./docs/wireframes/new-project-modal.png)
+### New Task Modal
+![new-task-modal](./docs/wireframes/new-task-modal.png)
+### View Task Modal
 ![task-modal](./docs/wireframes/task-modal.png)
 ### View Members Modal
 ![members-modal](./docs/wireframes/member-modal.png)
