@@ -70,7 +70,7 @@ As George, a UX/UI Designer, I want to be able to comment on project tasks that 
 ## Data Flow Diagrams
 
 ### The Authentication System
-![authentication-diagram](./docs/diagrams/Projectable%20DFD%20-%20Auth.png)
+![authentication-diagram](./docs/diagrams/Projectable%20DFD%20-%20auth.png)
 ### The Projects Subsystem
 ![projects-subsystem](./docs/diagrams/Projectable%20DFD%20-%20projects.png)
 ### The Tasks SubSystem
