@@ -125,6 +125,22 @@ Hence, only desktop wireframes have been included in this documentation.
 ### Remove Member Modal
 ![remove-member-modal](./docs/wireframes/remove-member-modal.png)
 
+## Project Management 
+A Trello board has been chosen to track the progress of the project. Additionally, daily meetings have been conducted to discuss and plan the work for the day, before adding cards to the Trello board and assigning tasks to members. Meetings have involved both conference calls and discussion via Discord messages and have been conducted on an ad hoc basis. 
+
+### Link to the Projectable Board
+https://trello.com/b/o2R0DlOm/t3-a2-projectable-app
+
+### Progress 19th of October 22
+![trello-19thOct](./docs/trello/trello-progress-19Oct22.png)
+### Progress 24th of October 22
+![trello-24th-Oct](./docs/trello/progress%2024thOct22.png)
+![trello-24th-Oct](./docs/trello/progress%2024Oct22.png)
+### Progress 29th of October
+![trello-29th-Oct](./docs/trello/29Oct22.png)
+### Progress 6th of November 
+![trello-6th-Nov](./docs/trello/progress%206Nov22.png)
+
 ## Reference List
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
 
