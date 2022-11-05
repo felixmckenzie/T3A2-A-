@@ -48,6 +48,9 @@ The app is intended for Project Managers, teams and individuals wanting to manag
 - Firebase Authentication
 
 ## User Stories 
+
+As Jenny, A Team Lead, I want a project management application, that allows me to securely register and login with email and password. So only I have access to my projects stored on the application. 
+
 As Max, A Project Manager, I’m currently lacking visibility across all my projects. I would like a tool that allows me to plan and manage all of my team’s projects in one place, so that I know how many projects I have, what each includes and when each is happening. 
 
 As Joe, A Project Manager, I want to be able to create tasks for a project, So my team can easily visualize all the requirements necessary to complete a project.
@@ -157,6 +160,22 @@ of a project.
 ### Remove Member Modal
 ![remove-member-modal](./docs/wireframes/remove-member-modal.png)
 
+## Project Management 
+A Trello board has been chosen to track the progress of the project. Additionally, daily meetings have been conducted to discuss and plan the work for the day, before adding cards to the Trello board and assigning tasks to members. Meetings have involved both conference calls and discussion via Discord messages and have been conducted on an ad hoc basis. 
+
+### Link to the Projectable Board
+https://trello.com/b/o2R0DlOm/t3-a2-projectable-app
+
+### Progress 19th of October 22
+![trello-19thOct](./docs/trello/trello-progress-19Oct22.png)
+### Progress 24th of October 22
+![trello-24th-Oct](./docs/trello/progress%2024thOct22.png)
+![trello-24th-Oct](./docs/trello/progress%2024Oct22.png)
+### Progress 29th of October
+![trello-29th-Oct](./docs/trello/29Oct22.png)
+### Progress 6th of November 
+![trello-6th-Nov](./docs/trello/progress%206Nov22.png)
+![trello-6th-Nov](./docs/trello/progress-6Nov-22.png)
 ## Reference List
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
 
