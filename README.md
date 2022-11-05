@@ -48,6 +48,9 @@ The app is intended for Project Managers, teams and individuals wanting to manag
 - Firebase Authentication
 
 ## User Stories 
+
+As Jenny, A Team Lead, I want a project management application, that allows me to securely register and login with email and password. So only I have access to my projects stored on the application. 
+
 As Max, A Project Manager, I’m currently lacking visibility across all my projects. I would like a tool that allows me to plan and manage all of my team’s projects in one place, so that I know how many projects I have, what each includes and when each is happening. 
 
 As Joe, A Project Manager, I want to be able to create tasks for a project, So my team can easily visualize all the requirements necessary to complete a project.
