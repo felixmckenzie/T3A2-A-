@@ -140,7 +140,7 @@ https://trello.com/b/o2R0DlOm/t3-a2-projectable-app
 ![trello-29th-Oct](./docs/trello/29Oct22.png)
 ### Progress 6th of November 
 ![trello-6th-Nov](./docs/trello/progress%206Nov22.png)
-
+![trello-6th-Nov](./docs/trello/progress-6Nov-22.png)
 ## Reference List
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
 
