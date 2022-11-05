@@ -139,11 +139,11 @@ pages clean, with only necessary info and controls - often centered).
 ![dashboard-projects](./docs/wireframes/dashboard-projects.png)
 ![dashboard-settings](./docs/wireframes/dashboard-settings.png)
 ### Project Views
+The project settings view will only be accessible by the creator/owner
+of a project.
 ![project-unassigned-tasks](./docs/wireframes/project-view-unassigned-tasks.png)
 ![project-members](./docs/wireframes/project-view-members.png)
 ![project-completed-tasks](./docs/wireframes/project-view-completed-tasks.png)
-**The project settings view will only be accessible by the creator/owner
-of a project.
 ![project-settings](./docs/wireframes/project-view-settings.png)
 ### New Project Modal
 ![new-porject-modal](./docs/wireframes/new-project-modal.png)
