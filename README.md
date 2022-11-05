@@ -93,19 +93,54 @@ text wrapping to accomodate for reduced space on smaller screens.
 
 Hence, only desktop wireframes have been included in this documentation.
 
+### Notifications, Calendar & Stats
+
+Icons have been included in the dashboard sidebar for notifications,
+calendar, and stats. These features are considered outside the scope of Projectable's MVP. However, the icons have been included in the 
+wireframes for completeness (it will be apparent that no DFDs 
+are present for any of these subsystems).
+
+### Dashboard and Project View Layout
+
+The dashboard and project view will make judicious use of space, with a
+thin left sidebar
+(no more than 40-50px wide) to be present on all device types, acting as a 
+navigational mechanism (like a tab bar) for all content subviews.
+
+Each subview will contain an heading with bottom border, to indicate to
+the user the nature of the current section. For this project, the team
+has decided to take card-based approach to displaying projects, notifications, tasks, etc., which will have horizontally oriented content.
+
+The sidebar is to be fixed to the viewport, with subview content vertically
+scrollable.
+
+### Dot Menus
+
+All actions associated with the entities represented by UI cards are
+to be available through 'dot' menus. Such menus have become somewhat of 
+an industry standard and provide a more intuitive workflow, which preserves
+valuable space - the actions are closely associated with each entity's 
+UI representation, and are only visible on the screen when needed.
+
 ### Sign Up / Log In
+
+These views serve as the entry points to the UI, they will be minimal and
+all content is to be centered (it has become standard to keep login
+pages clean, with only necessary info and controls - often centered).
+
 ![sign-up](./docs/wireframes/sign-up-page.png)
 ![sign-in](./docs/wireframes/login-page.png)
+
 ### Dashboard Views
-![dashboard-notifications](./docs/wireframes/dashboard-notifications.png)
-![dashboard-projects](./docs/wireframes/dashboard-projects.png)
 ![dashboard-tasks](./docs/wireframes/dashboard-tasks.png)
-![dashboard-calendar](./docs/wireframes/dashboard-calendar.png)
+![dashboard-projects](./docs/wireframes/dashboard-projects.png)
 ![dashboard-settings](./docs/wireframes/dashboard-settings.png)
 ### Project Views
 ![project-unassigned-tasks](./docs/wireframes/project-view-unassigned-tasks.png)
-![project-completed-tasks](./docs/wireframes/project-view-completed-tasks.png)
 ![project-members](./docs/wireframes/project-view-members.png)
+![project-completed-tasks](./docs/wireframes/project-view-completed-tasks.png)
+**The project settings view will only be accessible by the creator/owner
+of a project.
 ![project-settings](./docs/wireframes/project-view-settings.png)
 ### New Project Modal
 ![new-porject-modal](./docs/wireframes/new-project-modal.png)
