@@ -316,6 +316,8 @@ created an account.
 
 **PASS (Robert Neville 22/11/2022)**
 
+---
+
 ### Account Deletion
 
 **Name**: Delete Account
@@ -342,13 +344,132 @@ the settings tab in the left side bar.
 
 4. Click the red 'Delete Account' button and respond to the confirmation modal by clicking 'Yes'.
 
-5. You will be redirected to the login page.
+**Expected Results**: You will be redirected to the login page.
 
 **Runthroughs**
 
 **PASS (Robert Neville 22/11/2022)**
 
 ---
+
+### Project Creation
+
+**Name**: Create Project
+
+**Description**: Test to ensure that projects can be created through the
+projects frame in the user dashboard.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 22/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. Click the 'New' button to the right of the 'My Projects' heading.
+
+5. Enter a project name and description into the respective form fields
+and click the 'Submit' button.
+
+**Expected Results**: The modal will close and you will be redirected to the 
+project page with a title the same as the entered project name.
+
+**Runthroughs**
+
+**PASS (Robert Neville 22/11/2022)** - with the following data:
+- name: 'Test'
+- description: 'This is a test'
+
+---
+
+## Task Creation
+
+**Name**: Create Task
+
+**Description**: Test to ensure that tasks can be created for a project.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 22/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab in the left side bar and click the 'New' button to the right of the 'Unassigned Tasks' title that appears.
+
+6. You will be presented with a modal to create a task. Enter a brief and a description in the respective form fields, and select
+a priority for the task.
+
+7. Click the 'Submit' button.
+
+**Expected Results**: The modal should close, and the list of unassigned tasks should update to display the task that was just created.
+
+**Runthroughs**
+
+**PASS (Robert Neville 22/11/2022)** - with the following data:
+- brief: 'Test 1'
+- description: 'This is a test'
+- priority: 'medium'
+
+---
+
+## Viewing Tasks
+
+**Name**: View Task
+
+**Description**: Test to ensure that task details can be viewed by users.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+5. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'View Task'.
+
+**Expected Results**: A modal should pop up displaying the correct tasks details.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+
 
 ## Reference List
 
