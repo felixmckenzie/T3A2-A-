@@ -391,7 +391,7 @@ project page with a title the same as the entered project name.
 
 ---
 
-## Task Creation
+### Task Creation
 
 **Name**: Create Task
 
@@ -434,7 +434,7 @@ a priority for the task.
 
 ---
 
-## Viewing Tasks
+### Viewing Tasks
 
 **Name**: View Task
 
@@ -469,7 +469,247 @@ a project card's dot menu and you will be redirected to project page for that pr
 
 **PASS (Robert Neville 23/11/2022)**
 
+---
 
+### Editing Tasks
+
+**Name**: Edit Task
+
+**Description**: Test to ensure that tasks can be edited.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'Edit'.
+
+7. The edit task modal should display. Enter new values for task brief and description, then click the 'Submit' button.
+
+**Expected Results**: The modal should disappear and the task breif and description should be updated to the values entered in the modal. This can be verified by selecting 'View Task' in the respective task card's dot menu.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Deleting Tasks
+
+**Name**: Delete Task
+
+**Description**: Test to ensure that tasks can be deleted.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'Delete'.
+
+7. You will be prompted to confirm whether to proceed with the deletion. Select 'Yes'.
+
+**Expected Results**: The modal should close and the list of unassigned tasks should refresh without the deleted task diplayed.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Creating Comments
+
+**Name**: Create Comment
+
+**Description**: Test to ensure that comments can be created for a task.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'View Details'.
+
+7. The view task modal will be displayed. Notice the comment box at the bottom of this modal. Enter some text into the text area and click "Submit".
+
+**Expected Results**: The text entered should appear in a card above the comment box - along with the user name of the logged in user and the current date.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Editing Comments
+
+**Name**: Edit Comment
+
+**Description**: Test to ensure that comments can be edited for a task.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'View Details'.
+
+7. If no comments have been created, create one following the steps outlined in the Create Comment test.
+
+8. Click the dot menu on the comment card and select 'Edit'.
+
+9. Replace the old text with new text and click 'Submit'.
+
+**Expected Results**: The comment should now display the new text.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Delete Comment
+
+**Name**: Edit Comment
+
+**Description**: Test to ensure that comments can be edited for a task.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'View Details'.
+
+7. If no comments have been created, create one following the steps outlined in the Create Comment test.
+
+8. Click the dot menu on the comment card and select 'Delete'.
+
+**Expected Results**: The comment should disappear from the comment list.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Assigning Tasks
+
+**Name**: Assign Task
+
+**Description**: Test to ensure that tasks can be assigned.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Login to a user account or register for one.
+
+3. Onced logged in or registered, you will be redirected to the dashboard page. There you can click the 'Projects' tab in the left side bar and the 'My Projects' section will be displayed.
+
+4. If no projects have been created, follow the steps outlined in the Create Project test, otherwise select View Project from
+a project card's dot menu and you will be redirected to the project page for that project.
+
+5. Click the 'Unassigned Tasks' tab to navigate to the unassigned tasks list.
+
+6. If no tasks have been created, follow the steps outlined in the Create Task test, otherwise click the dot menu on a task card and select 'Assign To'.
+
+7. You will be presented with a modal to select a member of the project. By default 'Me' is an option. Select 'Me' and click the 'Submit' button.
+
+**Expected Results**: The task will disappear from the list of unassigned tasks and be visible in the 'My Tasks' section of the user's dashboard.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
 
 ## Reference List
 
