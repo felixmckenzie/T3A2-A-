@@ -758,6 +758,82 @@ a project card's dot menu and you will be redirected to the project page for tha
 
 ---
 
+## Adding Members
+
+**Name**: Add Member
+
+**Description**: Test to ensure that members can be added to projects.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Visit [https://projectable.netlify.app](https://projectable.netlify.app) using a Web browser.
+
+2. Create two separate user accounts.
+
+3. Login to one of the accounts.
+
+4. Create a project and click 'View Project' in the project card's dot menu.
+
+5. Click the 'Project Members' tab in the left side bar to navigate to the members section.
+
+6. Click the 'Add' button to the right of the 'Project Members' heading.
+
+7. A modal will appear. Enter the email address used to sign up for the other account created.
+
+8. Wait for that option to appear then select it and click 'Add User'.
+
+**Expected Results**: A card with the user's email address will appear in the project members section.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+### Removing Members
+
+**Name**: Remove Member
+
+**Description**: Test to ensure that members can be removed from projects.
+
+**Deployed Application**: [https://projectable.netlify.app](https://projectable.netlify.app)
+
+**Platform**: Web
+
+**Created By**: Robert Neville
+
+**Created On**: 23/11/2022
+
+**Steps**
+
+1. Follow the steps outline in the Add Member test.
+
+2. Click the dot memu for the newly added member's card.
+
+3. Select 'Remove member'.
+
+4. You will be prompted to confirm this action - select 'Yes'.
+
+**Expected Results**: The member will be removed from the project members list.
+
+**Runthroughs**
+
+**PASS (Robert Neville 23/11/2022)**
+
+---
+
+## Development Tests
+
+All the above production tests were conducted on 23/11/2022 with the same test data in a development environment and passed.
+
 ## Reference List
 
 Prossack, A 2021, 5 Statistics Employers Need To Know About The Remote Workforce, Forbes, viewed 25 October 2022, <https://www.forbes.com/sites/ashiraprossack1/2021/02/10/5-statistics-employers-need-to-know-about-the-remote-workforce/?sh=733a65fb655d>.
