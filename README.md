@@ -4,6 +4,17 @@
 
 #### Team: Felix Mckenzie & Robert Neville
 
+## Project Links 
+
+#### Deployed Application
+https://projectable.netlify.app/
+
+#### Frontend Repository 
+https://github.com/R-Neville/projectable
+
+#### Backend Repository 
+https://github.com/felixmckenzie/projectable-api
+
 ## Projectable Description
 
 **Purpose:**
@@ -50,6 +61,24 @@ The app is intended for Project Managers, teams and individuals wanting to manag
 
 - MongoDB Atlas
 - Firebase Authentication
+- Heroku 
+- Netlify
+
+**Frontend Libraries**
+- React Toastify: Used for dashboard toast notifications
+- React Select: Used for Asynchronous select elements 
+- Date FNS: Used for date formatting in the date display component
+- React Testing Library: Used extensively for testing React components
+- Axios Mock Adaptor: Used to mock calls to the backend API
+
+**Backend Libraries** 
+- esLint: Used as a linter to find code errors 
+- Prettier: Used for code formatting 
+- Cors: Used as middleware to enable CORS 
+- Dotenv: used to load environment variabls from .env file
+- Joi: Used for validating requests coming from the client
+- Jest: Used as the testing framework 
+- Supertest: Used for testing HTTP requests
 
 ## User Stories
 
@@ -191,7 +220,18 @@ of a project.
 
 ## Project Management
 
-A Trello board has been chosen to track the progress of the project. Additionally, daily meetings have been conducted to discuss and plan the work for the day, before adding cards to the Trello board and assigning tasks to members. Meetings have involved both conference calls and discussion via Discord messages and have been conducted on an ad hoc basis.
+A Trello board was chosen to track the progress of the project. Additionally, daily meetings have been conducted to discuss and plan the work for the day, before adding cards to the Trello board and assigning tasks to members. Meetings have involved both conference calls and discussion via Discord messages and have been conducted on an ad hoc basis. 
+
+As the Project progressed and the product backlog grew, further consultation was conducted with the client, to revaluate the deliverables by the due date.  
+It was imperative we delivered the application on time, however compromises to the original user stories would be needed in order to reach this goal. This meeting involved discussion around prioritising the most important features before further development would take place. In doing so, we were able to accomplish an MVP that all stakeholders were satisfied with while also meeting the clients budget.  
+
+Adjusts were made to the following features: 
+
+- Fully fledged calendar integration, has been replaced with a deadline date picker when creating tasks. Users are notified of due tasks through a toast pop up notification system on the dashboard, furthermore the due date of tasks is displayed in the task modal view. Calendar integration will be considered for the second release of Projectable.
+
+- The user analytics feature that was proposed for the application dashboard has been scheduled for review for the second release of Projectable. 
+
+- Originally user stories included notifications for comments, after conversation with stakeholders, this feature has been pushed back for review with second release of Projectable. 
 
 ### Link to the Projectable Board
 
@@ -214,6 +254,13 @@ https://trello.com/b/o2R0DlOm/t3-a2-projectable-app
 
 ![trello-6th-Nov](./docs/trello/progress%206Nov22.png)
 ![trello-6th-Nov](./docs/trello/progress-6Nov-22.png)
+
+### Progress 13th of November
+![trello-13th-Nov](./docs/trello/progress-13Nov-22.png)
+### Progress 18th of November
+![trello-18th-Nov](./docs/trello/progress-18-Nov-22.png)
+### Progress 20th of November
+![trello-20th-Nov](./docs/trello/progress-20-Nov-22.png)
 
 ## Production Tests
 
